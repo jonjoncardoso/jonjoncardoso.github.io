@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "@jonjoncardoso",
+    "section": "",
+    "text": "Dr. Jon Cardoso-Silva Assistant Professor of Data Science (Education) LSE Data Science Institute   \n\n\n\n\n\nnlp\n\n\ntext mining\n\n\noptimisation\n\n\ndata science workflow\n\n\nrelationship-rich education\n\n\nmachine learning applications\n\n\ngenerative AI for education\nHey there 👋🏻\nWelcome to this humble website! While I’m passionate about teaching others how to transform markdown into beautiful webpages using Quarto, I must admit that I haven’t put much effort into sprucing up my own site. So, please don’t mind its simplicity 😅.\nFeel free to explore, and if you have any questions, just let me know. Enjoy your stay!"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "@jonjoncardoso",
+    "section": "About me",
+    "text": "About me\n\nI joined LSE in September 2021, first as a postdoc in Eleanor Power’s group, and now as an Assistant Professor of Data Science (Education).\nI obtained my PhD in Computer Science from King’s College London in 2018. My research focused on optimisation, network science, and some machine learning.\nMy training and educational background during and before my PhD revolved around Engineering, Bio & Health Informatics.\nI worked in industry as a Full-stack Software Developer and, most recently, as a Lead Data Scientist at Data Science Brigade, a Brazilian data science consultancy.\nI love teaching, mentoring students and I have been involved in several research projects with undergraduate and postgraduate students. (Read more in the NOW page.)"
+  },
+  {
+    "objectID": "now.html",
+    "href": "now.html",
+    "title": "NOW Page",
+    "section": "",
+    "text": "Things I am involved in now 1:"
+  },
+  {
+    "objectID": "now.html#research",
+    "href": "now.html#research",
+    "title": "NOW Page",
+    "section": "📊 Research:",
+    "text": "📊 Research:\n\nProject: ‘Can Large Language Models replace traditional text mining workflow?’\nA summer research project inspired by the reading of Meng 2021.\nCollaborators:\n\nJoint research with Prof. Ken Benoit.\nResearch Assistant: Terry Zhou (BSc in Politics and Data Science, LSE)\nCloud Computing Support: Jinshuai Ma\n\n\n\nProject: Course Selection Pathways at LSE\nA dataviz project to visualise and understand how students choose and navigate through their optional courses at LSE.\nCurrent collaborators:\n\nEllen Austin (Senior Data Analyst at LSE)\nPrakrit Jayakumar (LSE BSc in Econ 2nd Year) and\nEthan Virtudazo (LSE General Course Student from Japan).\n\nPast collaborators:\n\nBen Steiner\nMike Christodoulou\n\n\n\nProject: Emojis and Political Identities\nWhat can the emojis you use in your social media profile reveal about your political values? 🤔\nRead more about this project and preliminary findings here\nCo-authors:\n\nSara Luxmoore (PhD student at )\nPedro Ramaciotti (Research Scientist @ médialab Sciences Po)\n\n\n\nVIMuRe\nYou can read about VIMuRe on paper recently published at JRSS A (De Bacco et al. 2023: “Latent Network Models to Account for Noisy, Multiply Reported Social Network Data.”\n\nI am writing tutorials and maintaining the VIMuRe packages in R and Python.\n🗣️ At the end of June 2023, I will be in Portland, Oregon for the Sunbelt 2023, teaching a workshop about VIMuRe alongside Daniel Redhead & Elly Power"
+  },
+  {
+    "objectID": "now.html#teaching",
+    "href": "now.html#teaching",
+    "title": "NOW Page",
+    "section": "🧑‍🏫 Teaching:",
+    "text": "🧑‍🏫 Teaching:\nI have been preparing material for the upcoming academic year at LSE. I teach the following courses:\n\n\n\nDS101\nFundamentals of  Data Science\n🎯 Focus:  theoretical concepts of data science\n📂 How:  reflections through reading and writing\n\n\n\nDS105\nData for  Data Scientists\n🎯 Focus: collection and handling of real data\n📂 How: hands-on coding exercises and a group project\n\n\n\nDS202\nData Science for  Social Scientists\n🎯 Focus: fundamental machine learning algorithms\n📂 How: practical use of ML techniques and metrics\n\n\n\n\n\nOn top of that:\n\nIn July 2023, I will teach a Summer School course about data engineering in R at LSE (ME204 — Data Engineering for the Social World)\nI have been working on quarto-template-for-university-courses for my upcoming undergraduate courses at LSE in 2023/24.\n📖 I might be working on a textbook too…"
+  },
+  {
+    "objectID": "now.html#footnotes",
+    "href": "now.html#footnotes",
+    "title": "NOW Page",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nRead about the /now page “movement”↩︎"
+  }
+]
