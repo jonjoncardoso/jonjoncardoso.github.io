@@ -1,0 +1,99 @@
+---
+title: "NOW Page"
+---
+
+Things I am involved in now [^1]:
+
+## 📊 **Research**:
+
+### Project: 'Can Large Language Models replace traditional text mining workflow?'
+
+A summer research project inspired by the reading of [Meng 2021](http://arxiv.org/abs/2212.09271). 
+
+Collaborators:
+
+- Joint research with Prof. [Ken Benoit](https://kenbenoit.net/).
+- Research Assistant: [Terry Zhou](github.com/tz1211) (BSc in Politics and Data Science, LSE)
+- Cloud Computing Support: [Jinshuai Ma](github.com/Mayazure)
+ 
+
+### Project: Course Selection Pathways at LSE
+
+A dataviz project to visualise and understand how students choose and navigate through their optional courses at LSE. 
+
+Current collaborators:
+
+- [Ellen Austin](https://www.linkedin.com/in/ellen-austin-886a03a/) (Senior Data Analyst at LSE)
+- [Prakrit Jayakumar](https://github.com/prakritj) (LSE BSc in Econ 2nd Year) and
+- [Ethan Virtudazo](https://github.com/ethanvirtudazo) (LSE General Course Student from Japan).
+
+Past collaborators:
+
+- [Ben Steiner](https://github.com/BSteiner1)
+- [Mike Christodoulou](https://github.com/mdc2002)
+
+### Project: Emojis and Political Identities
+
+What can the emojis you use in your social media profile reveal about your political values? 🤔
+
+Read more about this project and preliminary findings [here](https://www.linkedin.com/posts/jonjoncardoso_emojis-talk-politics-activity-7072964675365208064-Ng1u)
+
+Co-authors:
+
+- [Sara Luxmoore](https://github.com/saraluxmoore) (PhD student at )
+- [Pedro Ramaciotti](https://pedroramaciotti.github.io/) (Research Scientist @ médialab Sciences Po)
+
+### VIMuRe
+
+You can read about VIMuRe on paper recently published at JRSS A ([De Bacco et al. 2023](https://doi.org/10.1093/jrsssa/qnac004): "_Latent Network Models to Account for Noisy, Multiply Reported Social Network Data._"
+
+- I am writing tutorials and maintaining the [VIMuRe](https://latentnetworks.github.io/vimure/) packages in R and Python.
+- 🗣️ At the end of June 2023, I will be in Portland, Oregon for the [**Sunbelt 2023**](https://www.insna.org/events/sunbelt-2023), teaching a workshop about `VIMuRe` alongside [Daniel Redhead](https://github.com/danielredhead ) & [Elly Power](https://github.com/eapower)  
+
+## 🧑‍🏫 **Teaching**:
+
+I have been preparing material for the upcoming academic year at LSE. I teach the following courses:
+
+::: columns
+::: {.column style="width: 31%;height:20em;border-style: dotted;border-width: 1px;border-color: \"#fefefe\"; margin-right:0.5%;padding:1%"}
+### DS101 {style="margin: 0em;"}
+**Fundamentals of <br/> Data Science**
+
+🎯 Focus: <br/> theoretical concepts of data science
+
+📂 How: <br/> reflections through reading and writing
+:::
+
+::: {.column style="width: 31%;height:20em;border-style: dotted;border-width: 1px;border-color: \"#fefefe\"; margin-right:0%;padding-top:0em;padding:1%;"}
+### DS105 {style="margin-left: 0em;"}
+**Data for <br/> Data Scientists**
+
+🎯 Focus: <br/>collection and handling of real data
+
+📂 How: <br/>hands-on coding exercises and a group project
+:::
+
+::: {.column style="width: 30%;height:20em;border-style: dotted;border-width: 1px;border-color: \"#fefefe\"; margin-left:0.5%;padding:1%;"}
+### DS202 {style="margin-left: 0em;"}
+**Data Science for <br/> Social Scientists**
+
+🎯 Focus: <br/>fundamental machine learning algorithms
+
+📂 How: <br/>practical use of ML techniques and metrics
+:::
+:::
+
+<p></p>
+
+On top of that:
+
+- In July 2023, I will teach a Summer School course about data engineering in R at LSE ([ME204 — Data Engineering for the Social World](https://www.lse.ac.uk/study-at-lse/summer-schools/summer-school/courses/research-methods/me204))
+
+- I have been working on [quarto-template-for-university-courses](https://github.com/jonjoncardoso/quarto-template-for-university-courses) for my upcoming undergraduate courses at LSE in 2023/24.
+
+
+- 📖 I might be working on a _textbook_ too...
+
+
+[^1]: Read about the [/now page "movement"](https://sive.rs/nowff)
+

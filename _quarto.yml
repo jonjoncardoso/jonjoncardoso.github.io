@@ -1,0 +1,45 @@
+project:
+  type: "website"
+  title: "@jonjoncardoso"
+  output-dir: _output
+  render:
+    - "index.qmd"
+    - "now.qmd"
+
+format:
+  html: 
+    grid:
+        sidebar-width: 240px
+        body-width: 1100px
+        margin-width: 200px
+        gutter-width: 1.5rem
+
+
+website:
+  title: "Jon Cardoso-Silva"
+  page-navigation: false
+  reader-mode: false
+  open-graph: true
+
+  sidebar:
+    search: false
+    style: floating
+    contents:
+      - text: "🏡 Home"
+        href: index.qmd
+      - text: "🤹🏻‍♂️ Now"
+        href: now.qmd
+    tools:
+      - icon: mastodon
+        text: Mastodon
+        href: https://datasci.social/@jonjoncardoso
+      - icon: github
+        text: Github
+        href: https://github.com/jonjoncardoso
+      - icon: linkedin
+        text: Linkedin
+        href: https://www.linkedin.com/in/jonjoncardoso/
+      - icon: envelope
+        text: E-mail
+        href: mailto:J.Cardoso-Silva@lse.ac.uk
+    

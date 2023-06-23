@@ -1,0 +1,63 @@
+---
+title: "@jonjoncardoso"
+---
+
+
+
+::: columns
+
+::: {.column style="width:50%;height:32.5%;border-radius:1em;margin:1%;padding:1.5%;background-color:#f5f5f5"}
+<figure>
+    <img src="/images/Cardoso-Silva_Jon.jpeg" alt="Photo of Jon Cardoso-Silva" role="presentation" style="object-fit: cover;width:10em;height:10em;border-radius: 50%;font-size:1em;" class="img-responsive atto_image_button_text-bottom">
+    <figcaption>
+        <strong>Dr.&nbsp;<span><a href="https://www.lse.ac.uk/DSI/People/Jonathan-Cardoso-Silva" target="_blank" class="external">Jon Cardoso-Silva</a></span></strong> 
+        <br/>Assistant Professor of Data Science (Education)
+        <br/>LSE Data Science Institute
+        <br/>
+        <br/> [![](https://img.shields.io/mastodon/follow/110434003198028743?domain=https%3A%2F%2Fdatasci.social&style=social)](https://datasci.social/@jonjoncardoso)
+    </figcaption>
+</figure>
+
+:::
+
+::: {.column style="width:30%;font-size:0.85em;margin-left:1%;"}
+<p></p>
+
+<span class="tag" style="background-color:var(--quarto-hl-st-color); color: white; border-radius: 0.5em;padding:0.35em;margin-bottom:0.5em;">nlp</span>
+<p></p>
+<span class="tag" style="background-color:var(--quarto-hl-cn-color); color: white; border-radius: 0.5em;padding:0.35em;margin-bottom:0.5em;">text mining</span>
+<p></p>
+<span class="tag" style="background-color:var(--quarto-hl-fu-color);color: white; border-radius: 0.5em;padding:0.35em;">optimisation</span>
+<p></p>
+<span class="tag" style="background-color:var(--quarto-hl-im-color);color: white; border-radius: 0.5em;padding:0.35em;">data science workflow</span>
+<p></p>
+<span class="tag" style="background-color:var(--quarto-hl-dv-color); color: white; border-radius: 0.5em;padding:0.35em;margin-bottom:0.5em;">relationship-rich education</span>
+<p></p>
+<span class="tag" style="background-color:var(--quarto-hl-st-color);color: white; border-radius: 0.5em;padding:0.35em;">machine learning applications</span>
+<p></p>
+<span class="tag" style="background-color:var(--quarto-hl-cn-color);color: white; border-radius: 0.5em;padding:0.35em;">generative AI for education</span>
+
+
+:::
+
+:::
+
+---
+
+Hey there 👋🏻
+
+Welcome to this humble website! While I'm passionate about teaching others how to transform markdown into beautiful [webpages using Quarto](https://github.com/jonjoncardoso/quarto-template-for-university-courses), I must admit that I haven't put much effort into sprucing up my own site. So, please don't mind its simplicity 😅.
+
+Feel free to explore, and if you have any questions, just let me know. Enjoy your stay!
+
+## About me
+
+- I joined LSE in September 2021, first as a postdoc in [Eleanor Power's group](https://www.lse.ac.uk/Methodology/People/Academic-Staff/Eleanor-Power/Eleanor-Power), and now as an Assistant Professor of Data Science (Education).
+
+- I obtained my PhD in Computer Science from King's College London in 2018. My research focused on optimisation, network science, and some machine learning.
+
+- My training and educational background during and before my PhD revolved around Engineering, Bio & Health Informatics.
+
+- I worked in industry as a **Full-stack Software Developer** and, most recently, as a **Lead Data Scientist** at Data Science Brigade, a Brazilian data science consultancy.
+
+- I love teaching, mentoring students and I have been involved in several research projects with undergraduate and postgraduate students. (Read more in the [NOW](/now.qmd) page.)
