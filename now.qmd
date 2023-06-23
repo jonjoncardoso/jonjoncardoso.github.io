@@ -40,7 +40,7 @@ Read more about this project and preliminary findings [here](https://www.linkedi
 
 Co-authors:
 
-- [Sara Luxmoore](https://github.com/saraluxmoore) (PhD student at )
+- [Sara Luxmoore](https://github.com/saraluxmoore) (PhD student at UC Berkeley)
 - [Pedro Ramaciotti](https://pedroramaciotti.github.io/) (Research Scientist @ médialab Sciences Po)
 
 ### VIMuRe
