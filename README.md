@@ -5,16 +5,20 @@
   <img align="left" alt="Jon's LSE page" width="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/319px-LSE_Logo.svg.png" />
 </a>
 
+<a href="https://datasci.social/@jonjoncardoso" rel="me">
+  <img align="left" alt="Jon's Mastodon page" width="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mastodon_logotype_%28simple%29_new_hue.svg/1024px-Mastodon_logotype_%28simple%29_new_hue.svg.png" />
+</a>
+
 <a href="https://www.linkedin.com/in/jonjoncardoso">
   <img align="left" alt="Jon's LinkedIN" width="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/240px-LinkedIn_logo_initials.png" />
 </a>
 
 <a href="https://scholar.google.co.uk/citations?user=7QrW-s4AAAAJ&hl=en">
-  <img align="left" alt="Jon's Gmail" width="22px" src="https://raw.githubusercontent.com/simple-icons/simple-icons/master/icons/googlescholar.svg" />
+  <img align="left" alt="Jon's Google Scholar page" width="22px" src="https://raw.githubusercontent.com/simple-icons/simple-icons/master/icons/googlescholar.svg" />
 </a>
 
 <a href="https://www.researchgate.net/profile/Jonathan-Cardoso-Silva">
-  <img align="left" alt="Jon's Gmail" width="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/ResearchGate_icon_SVG.svg/32px-ResearchGate_icon_SVG.svg.png" />
+  <img align="left" alt="Jon's ResearchGate page" width="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/ResearchGate_icon_SVG.svg/32px-ResearchGate_icon_SVG.svg.png" />
 </a>
 
 <a href="mailto:jonathan.car.silva@gmail.com">
