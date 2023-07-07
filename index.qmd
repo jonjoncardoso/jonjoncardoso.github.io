@@ -18,6 +18,10 @@ title: "@jonjoncardoso"
     </figcaption>
 </figure>
 
+<a href="https://datasci.social/@jonjoncardoso" rel="me" style="opacity:0">
+  <img align="left" alt="Jon's Mastodon page" width="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mastodon_logotype_%28simple%29_new_hue.svg/1024px-Mastodon_logotype_%28simple%29_new_hue.svg.png" />
+</a>
+
 :::
 
 ::: {.column style="width:30%;font-size:0.85em;margin-left:1%;"}
