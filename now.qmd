@@ -13,8 +13,8 @@ A summer research project inspired by the reading of [Meng 2021](http://arxiv.or
 Collaborators:
 
 - Joint research with Prof. [Ken Benoit](https://kenbenoit.net/).
-- Research Assistant: [Terry Zhou](github.com/tz1211) (BSc in Politics and Data Science, LSE)
-- Cloud Computing Support: [Jinshuai Ma](github.com/Mayazure)
+- Research Assistant: [Terry Zhou](https://github.com/tz1211) (BSc in Politics and Data Science, LSE)
+- Cloud Computing Support: [Jinshuai Ma](https://github.com/Mayazure)
  
 
 ### Project: Course Selection Pathways at LSE
