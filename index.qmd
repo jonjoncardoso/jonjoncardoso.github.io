@@ -50,8 +50,6 @@ title: "@jonjoncardoso"
 
 Hey there 👋🏻
 
-Welcome to this humble website! While I'm passionate about teaching others how to transform markdown into beautiful [webpages using Quarto](https://github.com/jonjoncardoso/quarto-template-for-university-courses), I must admit that I haven't put much effort into sprucing up my own site. So, please don't mind its simplicity 😅.
-
 Feel free to explore, and if you have any questions, just let me know. Enjoy your stay!
 
 ## About me
