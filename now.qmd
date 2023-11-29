@@ -6,25 +6,30 @@ Things I am involved in now [^1]:
 
 ## 📊 **Research**:
 
+## 📊 **Research**:
+
 ### Project: GENIAL - GEN<font color='#D55816'>IA</font>L: <font color='#D55816'>GEN</font>erative <font color='#D55816'>AI</font> Tools as a Catalyst for <font color='#D55816'>L</font>earning
 
-<img src="images/GENIAL_favicon.png"  style="object-fit: cover;width:8em;height:8em;border-radius: 70%;"/>
+<img src="https://github.com/LSE-DSI/genial/assets/896254/413df2b5-cabd-4fbf-94fa-3d50dcefbd22"  style="object-fit: cover;width:8em;height:8em;border-radius: 70%;"/>
 
 A focus group led by my colleague, Dr [Marcos Barreto](https://marcosebarreto.github.io/) ([LSE Department of Statistics](https://lse.ac.uk/statistics)), and I. We want to explore the practical applications of Generative AI tools for education and understand how they might specifically enhance (or hurt) programming skills and critical thinking. We will design exercises and learning materials and test them on several undergraduate and a graduate course at LSE this coming academic year.
 
 You can read more about it on the dedicated website [here](http://lse-dsi.github.io/genial).
 
-### Project: 'Can Large Language Models replace traditional text mining workflow?'
+### Project: DISCORDIA - Uncovering Patterns of Parliamentary Dissent
 
-A summer research project inspired by the reading of [Meng 2021](http://arxiv.org/abs/2212.09271). 
+<img src="https://github.com/jonjoncardoso/jonjoncardoso/assets/896254/8b540043-bc9a-47f5-bd4f-8eb6ea09bfbb" style="object-fit: cover;width:8em;height:8em;border-radius: 70%;"/>
+
+Led by me and a dedicated team of research assistants, this project explores the fascinating realm of political dissent within the UK Parliament. We aim to identify and understand the indicators in MPs' speeches at the House of Commons that may suggest a likelihood of rebelling against party lines. Using a combination of data science and political analysis, our goal is to gain insights into the patterns of parliamentary rebellion. We're experimenting with various machine learning models and investigating the use of explainable AI to enhance our analysis. The findings from this project are expected to shed light on the nuances of political discourse.
+
+🖇️ A dedicated website will soon appear here soon
 
 Collaborators:
 
 - Joint research with Prof. [Ken Benoit](https://kenbenoit.net/).
-- Research Assistant: [Terry Zhou](https://github.com/tz1211) (BSc in Politics and Data Science, LSE)
-- Cloud Computing Support: [Jinshuai Ma](https://github.com/Mayazure)
+- Research Assistant: [Terry Zhou](https://github.com/tz1211) (2nd Year BSc in Politics and Data Science, LSE)
+- Research Assistant: [Nikolai Semikhatov](https://github.com/Sevnhutsjr) (2nd Year BSc in Politics and Data Science, LSE)
  
-
 ### Project: Course Selection Pathways at LSE
 
 A dataviz project to visualise and understand how students choose and navigate through their optional courses at LSE. 
@@ -40,11 +45,14 @@ Past collaborators:
 - [Ben Steiner](https://github.com/BSteiner1)
 - [Mike Christodoulou](https://github.com/mdc2002)
 
-### Project: Emojis and Political Identities
+### Project: 🇵🇱🤝🇪🇺 Emoji, Language Games and Political Polarisation
 
 What can the emojis you use in your social media profile reveal about your political values? 🤔
 
-Read more about this project and preliminary findings [here](https://www.linkedin.com/posts/jonjoncardoso_emojis-talk-politics-activity-7072964675365208064-Ng1u)
+Read our first paper:
+
+> Luxmoore, Sara, Jonathan Cardoso Silva, and Pedro Ramaciotti. ‘[Emoji, Language Games and Political Polarisation](https://hal.science/hal-04297824)’. In Fourth Conference on Computational Humanities Research. Paris, France, 2023.
+
 
 Co-authors:
 
