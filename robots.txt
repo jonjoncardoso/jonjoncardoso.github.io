@@ -1,1 +1,1 @@
-Sitemap: https://github.com/jonjoncardoso/jonjoncardoso.github.io/sitemap.xml
+Sitemap: https://jonjoncardoso.github.io/sitemap.xml
