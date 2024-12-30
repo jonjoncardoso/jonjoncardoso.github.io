@@ -2,114 +2,66 @@
 title: "NOW Page"
 ---
 
-Things I am involved in now [^1]:
+Current activities and focus areas as of January 2025:
 
-## 📊 **Research**:
-
-## 📊 **Research**:
-
-### Project: GENIAL - GEN<font color='#D55816'>IA</font>L: <font color='#D55816'>GEN</font>erative <font color='#D55816'>AI</font> Tools as a Catalyst for <font color='#D55816'>L</font>earning
+## 🤖 GEN<font color='#D55816'>IA</font>L: <font color='#D55816'>GEN</font>erative <font color='#D55816'>AI</font> Tools as a Catalyst for <font color='#D55816'>L</font>earning
 
 <img src="images/GENIAL_favicon.png"  style="object-fit: cover;width:8em;height:8em;border-radius: 70%;"/>
 
-A focus group led by my colleague, Dr [Marcos Barreto](https://marcosebarreto.github.io/) ([LSE Department of Statistics](https://lse.ac.uk/statistics)), and I. We want to explore the practical applications of Generative AI tools for education and understand how they might specifically enhance (or hurt) programming skills and critical thinking. We will design exercises and learning materials and test them on several undergraduate and a graduate course at LSE this coming academic year.
 
-You can read more about it on the dedicated website [here](http://lse-dsi.github.io/genial).
+Investigating how generative AI tools affect programming education and critical thinking development. Led jointly with Dr [Marcos Barreto](https://marcosebarreto.github.io/).
 
-### Project: DISCORDIA - Uncovering Patterns of Parliamentary Dissent
+Recent publication:
+
+> Sallai, D., Cardoso-Silva, J., Barreto, M., Panero, F., Berrada, G. and Luxmoore, S. (2024) '[Approach Generative AI Tools Proactively or Risk Bypassing the Learning Process in Higher Education](https://doi.org/10.31389/lseppr.108)', *LSE Public Policy Review*, 3(3), p. 7.
+
+Project site: [lse-dsi.github.io/genial](http://lse-dsi.github.io/genial)
+
+## 📊 Research Projects
+
+### DISCORDIA: Parliamentary Dissent Analysis
 
 <img src="images/DISCORDIA_favicon.png" style="object-fit: cover;width:8em;height:8em;border-radius: 70%;"/>
 
-Led by me and a dedicated team of research assistants, this project explores the fascinating realm of political dissent within the UK Parliament. We aim to identify and understand the indicators in MPs' speeches at the House of Commons that may suggest a likelihood of rebelling against party lines. Using a combination of data science and political analysis, our goal is to gain insights into the patterns of parliamentary rebellion. We're experimenting with various machine learning models and investigating the use of explainable AI to enhance our analysis. The findings from this project are expected to shed light on the nuances of political discourse.
+Analysing patterns of political dissent in parliamentary speeches. Joint work with:
+- [Terry Zhou](https://github.com/tz1211) (UG Research Assistant)
+- [Nikolai Semikhatov](https://github.com/Sevnhutsjr) (UG Research Assistant)
 
-🖇️ A dedicated website will soon appear here soon
+### ChatLSE
 
-Collaborators:
+An open-source RAG implementation for institutional knowledge:
+- Query rewriting for natural conversation flow
+- Context-aware follow-up handling
+- [Repository](https://github.com/LSE-DSI/chat-lse)
 
-- Joint research with Prof. [Ken Benoit](https://kenbenoit.net/).
-- Research Assistant: [Terry Zhou](https://github.com/tz1211) (2nd Year BSc in Politics and Data Science, LSE)
-- Research Assistant: [Nikolai Semikhatov](https://github.com/Sevnhutsjr) (2nd Year BSc in Politics and Data Science, LSE)
- 
-### Project: Course Selection Pathways at LSE
+Team:
 
-A dataviz project to visualise and understand how students choose and navigate through their optional courses at LSE. 
+- [Terry Zhou](https://github.com/tz1211) (**current**)
+- [Alexey Burmistrov](https://github.com/aliceandchains) (**current**)
+- [Jinshuai Ma](https://github.com/Mayazure) (**current**)
+- [Kristina Dixon](https://github.com/KristinaD1910) (past)
+- [Aksh Sabherwal](https://github.com/akshsabherwal) (past)
+- [Kylin Gao](https://github.com/gaoonline) (past)
+- [Riya Chhikara](https://github.com/RiyaChhikara) (past)
 
-Current collaborators:
+### Course Selection Pathways (completed Oct 2024)
 
-- [Ellen Austin](https://www.linkedin.com/in/ellen-austin-886a03a/) (Senior Data Analyst at LSE)
-- [Prakrit Jayakumar](https://github.com/prakritj) (LSE BSc in Econ 2nd Year) and
-- [Ethan Virtudazo](https://github.com/ethanvirtudazo) (LSE General Course Student from Japan).
+Visual analytics of LSE student course choices. Collaboration with:
+- [Ellen Austin](https://www.linkedin.com/in/ellen-austin-886a03a/) (LSE Planning)
+- [Prakrit Jayakumar](https://github.com/prakritj) (Research Assistant)
+- [Ethan Virtudazo](https://github.com/ethanvirtudazo) (Research Assistant)
 
-Past collaborators:
+## 🎓 Teaching
 
-- [Ben Steiner](https://github.com/BSteiner1)
-- [Mike Christodoulou](https://github.com/mdc2002)
+Current course development:
+- [DS105](https://lse-dsi.github.io/DS105) (Data for Data Science)
+- DS205 (Advanced Data Manipulation) - website in the works
 
-### Project: 🇵🇱🤝🇪🇺 Emoji, Language Games and Political Polarisation
+Supporting projects:
+- [Quarto course template](https://github.com/jonjoncardoso/quarto-template-for-university-courses)
+- 2x LSE Changemakers projects focused on GenerativeAI in Education
 
-What can the emojis you use in your social media profile reveal about your political values? 🤔
+---
+*Last updated: 30 December 2024*
 
-Read our first paper:
-
-> Luxmoore, Sara, Jonathan Cardoso Silva, and Pedro Ramaciotti. ‘[Emoji, Language Games and Political Polarisation](https://hal.science/hal-04297824)’. In Fourth Conference on Computational Humanities Research. Paris, France, 2023.
-
-
-Co-authors:
-
-- [Sara Luxmoore](https://github.com/saraluxmoore) (PhD student at UC Berkeley)
-- [Pedro Ramaciotti](https://pedroramaciotti.github.io/) (Research Scientist @ médialab Sciences Po)
-
-### VIMuRe
-
-You can read about VIMuRe on paper recently published at JRSS A ([De Bacco et al. 2023](https://doi.org/10.1093/jrsssa/qnac004): "_Latent Network Models to Account for Noisy, Multiply Reported Social Network Data._"
-
-- I am writing tutorials and maintaining the [VIMuRe](https://latentnetworks.github.io/vimure/) packages in R and Python.
-- 🗣️ At the end of June 2023, I will be in Portland, Oregon for the [**Sunbelt 2023**](https://www.insna.org/events/sunbelt-2023), teaching a workshop about `VIMuRe` alongside [Daniel Redhead](https://github.com/danielredhead ) & [Elly Power](https://github.com/eapower)  
-
-## 🧑‍🏫 **Teaching**:
-
-- I just finished teaching Summer School course about data engineering in R at LSE ([ME204 — Data Engineering for the Social World](https://www.lse.ac.uk/study-at-lse/summer-schools/summer-school/courses/research-methods/me204)).
-
-- I have been preparing material for the upcoming academic year at LSE. Courses I taught recently:
-
-::: columns
-::: {.column style="width: 31%;height:20em;border-style: dotted;border-width: 1px;border-color: \"#fefefe\"; margin-right:0.5%;padding:1%"}
-### DS101 {style="margin: 0em;"}
-**Fundamentals of <br/> Data Science**
-
-🎯 Focus: <br/> theoretical concepts of data science
-
-📂 How: <br/> reflections through reading and writing
-:::
-
-::: {.column style="width: 31%;height:20em;border-style: dotted;border-width: 1px;border-color: \"#fefefe\"; margin-right:0%;padding-top:0em;padding:1%;"}
-### DS105 {style="margin-left: 0em;"}
-**Data for <br/> Data Scientists**
-
-🎯 Focus: <br/>collection and handling of real data
-
-📂 How: <br/>hands-on coding exercises and a group project
-:::
-
-::: {.column style="width: 30%;height:20em;border-style: dotted;border-width: 1px;border-color: \"#fefefe\"; margin-left:0.5%;padding:1%;"}
-### DS202 {style="margin-left: 0em;"}
-**Data Science for <br/> Social Scientists**
-
-🎯 Focus: <br/>fundamental machine learning algorithms
-
-📂 How: <br/>practical use of ML techniques and metrics
-:::
-:::
-
-<p></p>
-
-On top of that:
-
-- I have been working on [quarto-template-for-university-courses](https://github.com/jonjoncardoso/quarto-template-for-university-courses) for my upcoming undergraduate courses at LSE in 2023/24.
-
-
-- 📖 I might be working on a _textbook_ too...
-
-
-[^1]: Read about the [/now page "movement"](https://sive.rs/nowff)
-
+[^1]: About the [/now page movement](https://sive.rs/nowff)
