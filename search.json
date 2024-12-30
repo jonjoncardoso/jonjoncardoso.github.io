@@ -4,27 +4,27 @@
     "href": "now.html",
     "title": "NOW Page",
     "section": "",
-    "text": "Things I am involved in now 1:",
+    "text": "Current activities and focus areas as of January 2025:",
     "crumbs": [
       "🤹🏻‍♂️ Now"
     ]
   },
   {
-    "objectID": "now.html#research",
-    "href": "now.html#research",
+    "objectID": "now.html#genial-generative-ai-tools-as-a-catalyst-for-learning",
+    "href": "now.html#genial-generative-ai-tools-as-a-catalyst-for-learning",
     "title": "NOW Page",
-    "section": "📊 Research:",
-    "text": "📊 Research:",
+    "section": "🤖 GENIAL: GENerative AI Tools as a Catalyst for Learning",
+    "text": "🤖 GENIAL: GENerative AI Tools as a Catalyst for Learning\n\nInvestigating how generative AI tools affect programming education and critical thinking development. Led jointly with Dr Marcos Barreto.\nRecent publication:\n\nSallai, D., Cardoso-Silva, J., Barreto, M., Panero, F., Berrada, G. and Luxmoore, S. (2024) ‘Approach Generative AI Tools Proactively or Risk Bypassing the Learning Process in Higher Education’, LSE Public Policy Review, 3(3), p. 7.\n\nProject site: lse-dsi.github.io/genial",
     "crumbs": [
       "🤹🏻‍♂️ Now"
     ]
   },
   {
-    "objectID": "now.html#research-1",
-    "href": "now.html#research-1",
+    "objectID": "now.html#research-projects",
+    "href": "now.html#research-projects",
     "title": "NOW Page",
-    "section": "📊 Research:",
-    "text": "📊 Research:\n\nProject: GENIAL - GENIAL: GENerative AI Tools as a Catalyst for Learning\n\nA focus group led by my colleague, Dr Marcos Barreto (LSE Department of Statistics), and I. We want to explore the practical applications of Generative AI tools for education and understand how they might specifically enhance (or hurt) programming skills and critical thinking. We will design exercises and learning materials and test them on several undergraduate and a graduate course at LSE this coming academic year.\nYou can read more about it on the dedicated website here.\n\n\nProject: DISCORDIA - Uncovering Patterns of Parliamentary Dissent\n\nLed by me and a dedicated team of research assistants, this project explores the fascinating realm of political dissent within the UK Parliament. We aim to identify and understand the indicators in MPs’ speeches at the House of Commons that may suggest a likelihood of rebelling against party lines. Using a combination of data science and political analysis, our goal is to gain insights into the patterns of parliamentary rebellion. We’re experimenting with various machine learning models and investigating the use of explainable AI to enhance our analysis. The findings from this project are expected to shed light on the nuances of political discourse.\n🖇️ A dedicated website will soon appear here soon\nCollaborators:\n\nJoint research with Prof. Ken Benoit.\nResearch Assistant: Terry Zhou (2nd Year BSc in Politics and Data Science, LSE)\nResearch Assistant: Nikolai Semikhatov (2nd Year BSc in Politics and Data Science, LSE)\n\n\n\nProject: Course Selection Pathways at LSE\nA dataviz project to visualise and understand how students choose and navigate through their optional courses at LSE.\nCurrent collaborators:\n\nEllen Austin (Senior Data Analyst at LSE)\nPrakrit Jayakumar (LSE BSc in Econ 2nd Year) and\nEthan Virtudazo (LSE General Course Student from Japan).\n\nPast collaborators:\n\nBen Steiner\nMike Christodoulou\n\n\n\nProject: 🇵🇱🤝🇪🇺 Emoji, Language Games and Political Polarisation\nWhat can the emojis you use in your social media profile reveal about your political values? 🤔\nRead our first paper:\n\nLuxmoore, Sara, Jonathan Cardoso Silva, and Pedro Ramaciotti. ‘Emoji, Language Games and Political Polarisation’. In Fourth Conference on Computational Humanities Research. Paris, France, 2023.\n\nCo-authors:\n\nSara Luxmoore (PhD student at UC Berkeley)\nPedro Ramaciotti (Research Scientist @ médialab Sciences Po)\n\n\n\nVIMuRe\nYou can read about VIMuRe on paper recently published at JRSS A (De Bacco et al. 2023: “Latent Network Models to Account for Noisy, Multiply Reported Social Network Data.”\n\nI am writing tutorials and maintaining the VIMuRe packages in R and Python.\n🗣️ At the end of June 2023, I will be in Portland, Oregon for the Sunbelt 2023, teaching a workshop about VIMuRe alongside Daniel Redhead & Elly Power",
+    "section": "📊 Research Projects",
+    "text": "📊 Research Projects\n\nDISCORDIA: Parliamentary Dissent Analysis\n\nAnalysing patterns of political dissent in parliamentary speeches. Joint work with: - Terry Zhou (UG Research Assistant) - Nikolai Semikhatov (UG Research Assistant)\n\n\nChatLSE\nAn open-source RAG implementation for institutional knowledge: - Query rewriting for natural conversation flow - Context-aware follow-up handling - Repository\nTeam:\n\nTerry Zhou (current)\nAlexey Burmistrov (current)\nJinshuai Ma (current)\nKristina Dixon (past)\nAksh Sabherwal (past)\nKylin Gao (past)\nRiya Chhikara (past)\n\n\n\nCourse Selection Pathways (completed Oct 2024)\nVisual analytics of LSE student course choices. Collaboration with: - Ellen Austin (LSE Planning) - Prakrit Jayakumar (Research Assistant) - Ethan Virtudazo (Research Assistant)",
     "crumbs": [
       "🤹🏻‍♂️ Now"
     ]
@@ -33,18 +33,8 @@
     "objectID": "now.html#teaching",
     "href": "now.html#teaching",
     "title": "NOW Page",
-    "section": "🧑‍🏫 Teaching:",
-    "text": "🧑‍🏫 Teaching:\n\nI just finished teaching Summer School course about data engineering in R at LSE (ME204 — Data Engineering for the Social World).\nI have been preparing material for the upcoming academic year at LSE. Courses I taught recently:\n\n\n\n\nDS101\nFundamentals of  Data Science\n🎯 Focus:  theoretical concepts of data science\n📂 How:  reflections through reading and writing\n\n\n\nDS105\nData for  Data Scientists\n🎯 Focus: collection and handling of real data\n📂 How: hands-on coding exercises and a group project\n\n\n\nDS202\nData Science for  Social Scientists\n🎯 Focus: fundamental machine learning algorithms\n📂 How: practical use of ML techniques and metrics\n\n\n\n\n\nOn top of that:\n\nI have been working on quarto-template-for-university-courses for my upcoming undergraduate courses at LSE in 2023/24.\n📖 I might be working on a textbook too…",
-    "crumbs": [
-      "🤹🏻‍♂️ Now"
-    ]
-  },
-  {
-    "objectID": "now.html#footnotes",
-    "href": "now.html#footnotes",
-    "title": "NOW Page",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nRead about the /now page “movement”↩︎",
+    "section": "🎓 Teaching",
+    "text": "🎓 Teaching\nCurrent course development: - DS105 (Data for Data Science) - DS205 (Advanced Data Manipulation) - website in the works\nSupporting projects: - Quarto course template - 2x LSE Changemakers projects focused on GenerativeAI in Education\n\nLast updated: 30 December 2024",
     "crumbs": [
       "🤹🏻‍♂️ Now"
     ]
