@@ -23,7 +23,10 @@ Project site: [lse-dsi.github.io/genial](http://lse-dsi.github.io/genial)
 
 <img src="images/DISCORDIA_favicon.png" style="object-fit: cover;width:8em;height:8em;border-radius: 70%;"/>
 
-Analysing patterns of political dissent in parliamentary speeches. Joint work with:
+Analysing patterns of political dissent in parliamentary speeches.
+
+Team:
+
 - [Terry Zhou](https://github.com/tz1211) (UG Research Assistant)
 - [Nikolai Semikhatov](https://github.com/Sevnhutsjr) (UG Research Assistant)
 
