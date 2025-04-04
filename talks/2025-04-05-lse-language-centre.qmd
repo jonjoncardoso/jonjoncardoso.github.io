@@ -1,0 +1,343 @@
+---
+title: "<span style='display:inline-block;font-size:8.75rem;line-height:1.1em !important;margin-bottom:0.5em;'>A primer on Generative AI</span>"
+subtitle: "<span style='font-size:5rem;'>What do we need to know?</span>"
+author: "Dr [Jon Cardoso-Silva](https://jonjoncardoso.github.io) <br> <span style='font-size:2rem;'>Assistant Professor (Education) in Data Science</span>"
+institute: '![](lse_dsi.png){width=10em}'
+date: 5 April 2024
+date-meta: 5 April 2024
+date-format: "DD MMM YYYY"
+toc: true
+toc-depth: 1
+toc-title: "What I will talk about:"
+from: markdown+emoji
+editor:
+  render-on-save: true
+  preview: true
+format:
+  revealjs: 
+    width: 1440
+    height: 900
+    code-line-numbers: false
+    center-title-slide: true
+    fig-responsive: true
+    theme: simple
+    slide-number: true
+    mouse-wheel: false
+    preview-links: auto
+    logo: lse_dsi.png
+    # css: 
+    footer: "<span style='font-size:0.85rem;color:#666666 !important'>LSE+KCL [AI and Language Learning and Teaching](https://www.lse.ac.uk/language-centre/news-and-events/kcl-lse-workshop-on-ai-and-language-learning/artificial-intelligence-and-language-learning) workshop</span>"
+---
+
+# What is AI?
+
+## The Evolution of AI
+
+<div style="width: 100%; position: relative; height: 500px; top: 150px; margin: 20px 0; overflow-x: auto;">
+<!-- Timeline bar -->
+<div style="position: absolute; height: 6px; background-color: #ccc; top: 80px; left: 0; right: 0;"></div>
+
+<!-- 1950s -->
+<div style="position: absolute; left: 0%; top: 0; text-align: center; width: 180px;">
+  <div style="font-weight: bold; margin-top: 5px;">1950s</div>
+  <div style="height: 15px; width: 4px; background-color: #333; margin: 0 auto;"></div>
+  <div style="font-size: 0.8em; margin-top: 10px;">Birth of AI</div>
+  <div style="font-size: 0.7em; color: #666;">Turing Test (1950)</div>
+  <div style="font-size: 0.7em; color: #666;">Dartmouth (1956)</div>
+  
+</div>
+  
+<!-- 1960s-70s -->
+<div style="position: absolute; left: 16%; top: 90px; text-align: center; width: 180px;">
+  <div style="height: 15px; width: 4px; background-color: #333; margin: 0 auto;"></div>
+  <div style="font-weight: bold; margin-top: 5px;">1960s-70s</div>
+  <div style="font-size: 0.8em; margin-top: 5px;">Early optimism</div>
+  <div style="font-size: 0.7em; color: #666;">Rule-based systems</div>
+  <div style="font-size: 0.7em; color: #666;">Early NLP</div>
+</div>
+
+<!-- 1980s -->
+<div style="position: absolute; left: 33%; top: 0; text-align: center; width: 180px;">
+  <div style="font-weight: bold; margin-top: 5px;">1980s</div>
+  <div style="height: 15px; width: 4px; background-color: #333; margin: 0 auto;"></div>
+  <div style="font-size: 0.8em; margin-top: 10px;">Expert systems</div>
+  <div style="font-size: 0.7em; color: #666;">AI winter</div>
+</div>
+
+<!-- 1990s-2000s -->
+<div style="position: absolute; left: 50%; top: 90px; text-align: center; width: 180px;">
+  <div style="height: 15px; width: 4px; background-color: #333; margin: 0 auto;"></div>
+  <div style="font-weight: bold; margin-top: 5px;">1990s-2000s</div>
+  <div style="font-size: 0.8em; margin-top: 5px;">Machine learning</div>
+  <div style="font-size: 0.7em; color: #666;">World Wide Web (1990)</div>
+  <div style="font-size: 0.7em; color: #666;">A.L.I.C.E chatbot (1995)</div>
+</div>
+
+<!-- 2010s -->
+<div style="position: absolute; left: 67%; top: 0; text-align: center; width: 180px;">
+  <div style="font-weight: bold; margin-top: 5px;">2010s</div>
+  <div style="height: 15px; width: 4px; background-color: #333; margin: 0 auto;"></div>
+  <div style="font-size: 0.8em; margin-top: 10px;">Deep learning</div>
+  <div style="font-size: 0.7em; color: #666;">ImageNet (2012)</div>
+  <div style="font-size: 0.7em; color: #666;">AlphaGo (2016)</div>
+</div>
+
+<!-- 2020s -->
+<div style="position: absolute; left: 84%; top: 90px; text-align: center; width: 220px;">
+  <div style="height: 15px; width: 4px; background-color: #333; margin: 0 auto;"></div>
+  <div style="font-weight: bold; margin-top: 5px;">2020s</div>
+  <div style="font-size: 0.8em; margin-top: 5px;">Generative AI</div>
+  <div style="font-size: 0.7em; color:rgb(188, 126, 39);">GPT-3<br>(2020)</div>
+  <div style="font-style: italic; font-size: 0.7em; color: #4285f4;">ChatGPT<br>(Nov 2022)</div>
+  <div style="font-style: italic; font-size: 0.7em; color: #ea4335;">GPT-4<br>(Mar 2023)</div>
+  <div style="font-style: italic; font-size: 0.7em; color: #34a853;">Claude 3<br>(Mar 2024)</div>
+</div>
+</div>
+
+
+::: footer
+
+Read more at [Oxford Shorthand Stories - AI: A History](https://oxford.shorthandstories.com/ai-a-history/index.html)
+
+:::
+
+## What we call AI today {background-color="#f7f7f7"}
+
+[...is "just" a subset of a much broader field called **Machine Learning** within the broader field of **Artificial Intelligence**.]{style="font-size:1.75rem;"}
+
+![](./deeplearning-infographic.jpg){style="width:100%;border-radius:10px;border: 1px solid #000000;box-shadow: 5px 5px 15px rgba(0,0,0,0.3);"}
+
+## The Two Phases
+
+- Training Phase
+- Deployment Phase
+
+## 1) Training Phase {background-color="#F7ECD9"}
+
+::: {.columns}
+::: {.column width="60%"}
+![](./training_ai.png){width=100%}
+
+:::
+
+::: {.column width="40%"}
+
+- Expose algorithm to massive datasets
+- Define a way to evaluate the algorithm (loss function) [Whenever _**this**_ type of input is given, _**this**_ should be the expected output.]{style="display:block;font-size:1.5rem;"}
+- **Tweak** the algorithm (automatically) until it maps inputs to outputs correctly
+:::
+
+:::
+
+
+## 1) Training Phase (cont.) {background-color="#F7ECD9"}
+
+::: {.columns}
+::: {.column width="60%"}
+![](./training_ai_dials.png){width=100%}
+
+:::
+
+::: {.column width="40%"}
+
+[💡 Don't think of AI as a 'brain', think of it as a bunch of knobs and dials.]{style="display:block;font-size:2.5rem;font-weight:666;font-family:sans-serif;"} 
+
+- When training an AI, you are **tuning** these parameters or weights of the algorithm
+- The more data you have, the better the algorithm will be
+- The more complex the problem, the more parameters you need
+
+[ChatGPT 3 is reported to have 175 billion parameters]{.fragment style="display:block;background-color:#4285f4;color:#ffffff;padding:5px;border-radius:5px;font-size:2rem;padding:10px;"}
+
+:::
+
+:::
+
+## 2) Deployment Phase {background-color="#f7f7f7"}
+
+::: {.columns}
+
+::: {.column width="60%"}
+
+![](./deploying_ai.png){style="width:100%;border-radius:10px;border: 2px solid #000000;"}
+
+:::
+
+::: {.column width="40%"} 
+
+- Once the training is done, the parameters 🎛️ are frozen
+- We call the trained weights a **model**
+- We can run new data through the model to get an output (we call this **inference** or **prediction**)
+- The model produces an output according to the fixed parameters
+
+:::
+
+:::
+
+
+
+## ML Engineers must be able to tune the model {background="#000000"}
+
+![](./under_vs_overfitting.png){width=100%}
+
+
+::: footer
+**Source:** [Underfitting vs. Overfitting (Simplified 😁) by Jon Bonso](https://www.linkedin.com/pulse/underfitting-vs-overfitting-simplified-jon-bonso/)
+:::
+
+# How do Large Language Models (LLMs) work?
+
+- There are thousands of different Machine Learning algorithms, all trained in a similar way as described above.
+- A popular type of algorithm is called a **Neural Network**.
+- They are the building blocks of Large Language Models (LLMs).
+
+## Neural Networks: The Building Blocks
+
+::: {.columns}
+
+::: {.column width="40%"}
+- Initially inspired by how neurons work in brains
+- Composed of **layers** of neurons
+- Each connection has a **weight**
+- Information flows forward ⏩
+- Learning happens by adjusting weights (🎛️ the **knobs and dials** mentioned earlier)
+- Complex patterns emerge from simple units
+:::
+
+:::
+
+
+![](./nn.svg){style="position:absolute;top:0;left:20%;width:40em;height:100%;"}
+
+
+## Visual Example: Learning Decision Boundaries
+
+![](./visual_tensorflow.png){style="width:90%;border-radius:10px;border: 1px solid #000000;box-shadow: 5px 5px 15px rgba(0,0,0,0.3);"}
+
+::: aside
+🔗 **LIVE DEMO:** [Playground TensorFlow](https://playground.tensorflow.org/)
+:::
+
+## From Colours to Words: Token Prediction
+
+::: {.columns}
+::: {.column width="50%"}
+![](./llm_tokenization.png){style="width:90%;border-radius:10px;border: 1px solid #000000;box-shadow: 5px 5px 15px rgba(0,0,0,0.3);"}
+:::
+
+::: {.column width="50%"}
+- A typical LLM predicts the **next** token (word/subword)
+- Each token in the vocabulary has a probability distribution
+- The model chooses based on context
+- Temperature controls randomness
+- The process repeats for each new token
+:::
+:::
+
+::: aside
+🔗 **Read More:** [How text is 'tokenized' into smaller units for LLMS](https://github.com/deeepsig/tokviz)
+:::
+
+## The Transformer Architecture
+
+::: {.columns}
+::: {.column width="40%"}
+![](attention.png)
+:::
+
+::: {.column width="60%"}
+- Revolutionary architecture from 2017
+- Powers all modern LLMs
+- Key innovation: **Attention mechanism**
+  - Allows model to focus on relevant parts of input
+  - Creates connections between distant words
+- Processes entire sequences at once
+- Scales efficiently to massive datasets
+:::
+:::
+
+::: footer
+**Source:** [The Transformer Architecture: The Attention Mechanism](https://nlp.seas.harvard.edu/2018/04/03/attention.html) (technical)
+:::
+
+## Transformer Capabilities
+
+::: {.columns}
+
+::: {.column width="60%"}
+
+- Transformers can be adapted to many different tasks, not just next-text prediction
+  - Speech recognition
+  - Machine Translation ⭐ 
+  - Multi-modal tasks (text, image, audio)
+- For a while, the more models grew, the better they performed
+  - **But we might be reaching a point of diminishing returns**
+  - New architectures are being developed to improve performance
+
+:::
+
+:::
+
+
+![](./deeplearning_hitting_wall.png){style="position:absolute;bottom:0;right:0;height:500px;border-radius:10px;border: 1px solid #000000;box-shadow: 5px 5px 15px rgba(0,0,0,0.3);"}
+
+
+::: footer
+
+**Source:** "[Nautil.us Magazine - Deep learning is hitting a wall by Gary Marcus](https://nautil.us/deep-learning-is-hitting-a-wall-238440/)"
+
+:::
+
+# What to expect of the future?
+
+- Expect more powerful image and video generation models
+
+- Expect advances and privacy/security issues of **AI agents** (LLMs that can perform tasks autonomously)
+
+- [OECD report from 2023](https://www.oecd.org/en/publications/2023/07/oecd-employment-outlook-2023_904bcef3.html?appId=aemshell) predicts that 18-27% of high-level cognitive tasks will be **automated** by technologies like AI by 2030. **The nature of knowledge work will definitely change**.
+
+- Many in Silicon Valley believe **AGI** (Artificial General Intelligence) will be achieved soon, in the next few decades, some claim it's almost here.
+  - Critics like [Prof. Gary Marcus](https://garymarcus.substack.com/p/agi-by-2027) strongly disagree.
+
+## What does this mean for education in general?
+
+::: {.columns}
+::: {.column width="60%"}
+
+- AI has already changed how learners/students interact with content
+- Whether we like AI or not, we have to address it in our teaching (even if just to critique it).
+
+:::
+
+::: {.column width="40%"}
+
+<span style="font-weight:bold;font-size:1.1em;">The ![](GENIAL_favicon.png){style="width:1em;vertical-align:bottom;"} GEN<font color="#D55816">IA</font>L project</span>
+
+
+![](./genial_paper.png){style="width:100%;border-radius:10px;box-shadow: 5px 5px 15px rgba(0,0,0,0.3);"}
+
+:::
+
+:::
+
+## Thank You
+
+::: {.columns}
+::: {.column width="70%"}
+**Dr Jon Cardoso-Silva**  
+Assistant Professor (Education) in Data Science  
+LSE Data Science Institute
+
+[j.cardoso-silva@lse.ac.uk](mailto:j.cardoso-silva@lse.ac.uk)  
+[lse-dsi.github.io/genial](https://lse-dsi.github.io/genial)
+
+Read more about the <span style="font-weight:bold;font-size:1.1em;">The ![](GENIAL_favicon.png){style="width:1em;vertical-align:bottom;"} GEN<font color="#D55816">IA</font>L project</span>:
+
+![](./qrcode_lse-dsi.github.io.png){style="width:12em;"}
+
+
+:::
+
+::: {.column width="30%"}
+![](lse_dsi.png){width=15em}
+:::
+:::

@@ -4,7 +4,10 @@ title: "NOW Page"
 
 Things I am involved in now [^1]:
 
-## 📊 **Research**:
+
+## 🗣️ Public Speaking
+
+- 05 April 2025: [LSE + KCL AI for Teaching and Learning workshop](./talks/2025-04-05-lse-language-centre.qmd)
 
 ## 📊 **Research**:
 
