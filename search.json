@@ -1,10 +1,148 @@
 [
   {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#the-evolution-of-ai",
+    "href": "talks/2025-04-05-lse-language-centre.html#the-evolution-of-ai",
+    "title": "A primer on Generative AI",
+    "section": "The Evolution of AI",
+    "text": "The Evolution of AI\n\n\n\n\n\n\n\n\n1950s\n\n\n\n\n\nBirth of AI\n\n\nTuring Test (1950)\n\n\nDartmouth (1956)\n\n\n\n\n\n\n\n\n1960s-70s\n\n\nEarly optimism\n\n\nRule-based systems\n\n\nEarly NLP\n\n\n\n\n\n1980s\n\n\n\n\n\nExpert systems\n\n\nAI winter\n\n\n\n\n\n\n\n\n1990s-2000s\n\n\nMachine learning\n\n\nWorld Wide Web (1990)\n\n\nA.L.I.C.E chatbot (1995)\n\n\n\n\n\n2010s\n\n\n\n\n\nDeep learning\n\n\nImageNet (2012)\n\n\nAlphaGo (2016)\n\n\n\n\n\n\n\n\n2020s\n\n\nGenerative AI\n\n\nGPT-3(2020)\n\n\nChatGPT(Nov 2022)\n\n\nGPT-4(Mar 2023)\n\n\nClaude 3(Mar 2024)\n\n\n\n\nRead more at Oxford Shorthand Stories - AI: A History"
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#what-we-call-ai-today",
+    "href": "talks/2025-04-05-lse-language-centre.html#what-we-call-ai-today",
+    "title": "A primer on Generative AI",
+    "section": "What we call AI today",
+    "text": "What we call AI today\n…is “just” a subset of a much broader field called Machine Learning within the broader field of Artificial Intelligence."
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#the-two-phases",
+    "href": "talks/2025-04-05-lse-language-centre.html#the-two-phases",
+    "title": "A primer on Generative AI",
+    "section": "The Two Phases",
+    "text": "The Two Phases\n\nTraining Phase\nDeployment Phase"
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#training-phase",
+    "href": "talks/2025-04-05-lse-language-centre.html#training-phase",
+    "title": "A primer on Generative AI",
+    "section": "1) Training Phase",
+    "text": "1) Training Phase\n\n\n\n\n\nExpose algorithm to massive datasets\nDefine a way to evaluate the algorithm (loss function) Whenever this type of input is given, this should be the expected output.\nTweak the algorithm (automatically) until it maps inputs to outputs correctly"
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#training-phase-cont.",
+    "href": "talks/2025-04-05-lse-language-centre.html#training-phase-cont.",
+    "title": "A primer on Generative AI",
+    "section": "1) Training Phase (cont.)",
+    "text": "1) Training Phase (cont.)\n\n\n\n\n💡 Don’t think of AI as a ‘brain’, think of it as a bunch of knobs and dials.\n\nWhen training an AI, you are tuning these parameters or weights of the algorithm\nThe more data you have, the better the algorithm will be\nThe more complex the problem, the more parameters you need\n\nChatGPT 3 is reported to have 175 billion parameters"
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#deployment-phase",
+    "href": "talks/2025-04-05-lse-language-centre.html#deployment-phase",
+    "title": "A primer on Generative AI",
+    "section": "2) Deployment Phase",
+    "text": "2) Deployment Phase\n\n\n\n\n\nOnce the training is done, the parameters 🎛️ are frozen\nWe call the trained weights a model\nWe can run new data through the model to get an output (we call this inference or prediction)\nThe model produces an output according to the fixed parameters"
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#ml-engineers-must-be-able-to-tune-the-model",
+    "href": "talks/2025-04-05-lse-language-centre.html#ml-engineers-must-be-able-to-tune-the-model",
+    "title": "A primer on Generative AI",
+    "section": "ML Engineers must be able to tune the model",
+    "text": "ML Engineers must be able to tune the model\n\n\nSource: Underfitting vs. Overfitting (Simplified 😁) by Jon Bonso"
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#neural-networks-the-building-blocks",
+    "href": "talks/2025-04-05-lse-language-centre.html#neural-networks-the-building-blocks",
+    "title": "A primer on Generative AI",
+    "section": "Neural Networks: The Building Blocks",
+    "text": "Neural Networks: The Building Blocks\n\n\n\nInitially inspired by how neurons work in brains\nComposed of layers of neurons\nEach connection has a weight\nInformation flows forward ⏩\nLearning happens by adjusting weights (🎛️ the knobs and dials mentioned earlier)\nComplex patterns emerge from simple units"
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#visual-example-learning-decision-boundaries",
+    "href": "talks/2025-04-05-lse-language-centre.html#visual-example-learning-decision-boundaries",
+    "title": "A primer on Generative AI",
+    "section": "Visual Example: Learning Decision Boundaries",
+    "text": "Visual Example: Learning Decision Boundaries\n\n\n\n🔗 LIVE DEMO: Playground TensorFlow"
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#from-colours-to-words-token-prediction",
+    "href": "talks/2025-04-05-lse-language-centre.html#from-colours-to-words-token-prediction",
+    "title": "A primer on Generative AI",
+    "section": "From Colours to Words: Token Prediction",
+    "text": "From Colours to Words: Token Prediction\n\n\n\n\n\nA typical LLM predicts the next token (word/subword)\nEach token in the vocabulary has a probability distribution\nThe model chooses based on context\nTemperature controls randomness\nThe process repeats for each new token\n\n\n\n\n🔗 Read More: How text is ‘tokenized’ into smaller units for LLMS"
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#the-transformer-architecture",
+    "href": "talks/2025-04-05-lse-language-centre.html#the-transformer-architecture",
+    "title": "A primer on Generative AI",
+    "section": "The Transformer Architecture",
+    "text": "The Transformer Architecture\n\n\n\n\n\nRevolutionary architecture from 2017\nPowers all modern LLMs\nKey innovation: Attention mechanism\n\nAllows model to focus on relevant parts of input\nCreates connections between distant words\n\nProcesses entire sequences at once\nScales efficiently to massive datasets\n\n\n\nSource: The Transformer Architecture: The Attention Mechanism (technical)"
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#transformer-capabilities",
+    "href": "talks/2025-04-05-lse-language-centre.html#transformer-capabilities",
+    "title": "A primer on Generative AI",
+    "section": "Transformer Capabilities",
+    "text": "Transformer Capabilities\n\n\n\nTransformers can be adapted to many different tasks, not just next-text prediction\n\nSpeech recognition\nMachine Translation ⭐\nMulti-modal tasks (text, image, audio)\n\nFor a while, the more models grew, the better they performed\n\nBut we might be reaching a point of diminishing returns\nNew architectures are being developed to improve performance\n\n\n\n\n\nSource: “Nautil.us Magazine - Deep learning is hitting a wall by Gary Marcus”"
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#what-does-this-mean-for-education-in-general",
+    "href": "talks/2025-04-05-lse-language-centre.html#what-does-this-mean-for-education-in-general",
+    "title": "A primer on Generative AI",
+    "section": "What does this mean for education in general?",
+    "text": "What does this mean for education in general?\n\n\n\nAI has already changed how learners/students interact with content\nWhether we like AI or not, we have to address it in our teaching (even if just to critique it).\n\n\nThe  GENIAL project"
+  },
+  {
+    "objectID": "talks/2025-04-05-lse-language-centre.html#thank-you",
+    "href": "talks/2025-04-05-lse-language-centre.html#thank-you",
+    "title": "A primer on Generative AI",
+    "section": "Thank You",
+    "text": "Thank You\n\n\nDr Jon Cardoso-Silva\nAssistant Professor (Education) in Data Science\nLSE Data Science Institute\nj.cardoso-silva@lse.ac.uk\nlse-dsi.github.io/genial\nRead more about the The  GENIAL project:"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "@jonjoncardoso",
+    "section": "",
+    "text": "Dr. Jon Cardoso-Silva Assistant Professor of Data Science (Education) LSE Data Science Institute   \n\n\n\n\n\ngenerative AI in education\n\n\ndata science education\n\n\nlearning analytics\n\n\nresearch software development\n\n\nrelationship-rich education\n\n\npolicy research\nI lead research and teaching initiatives at the intersection of data science education and generative AI. My work centres on developing evidence-based approaches to integrate AI tools in higher education, particularly in programming and data analysis instruction.",
+    "crumbs": [
+      "🏡 Home"
+    ]
+  },
+  {
+    "objectID": "index.html#current-focus",
+    "href": "index.html#current-focus",
+    "title": "@jonjoncardoso",
+    "section": "Current Focus",
+    "text": "Current Focus\nI develop and teach core data science courses at LSE (DS105 and DS205), focusing on data collection, manipulation and effective group collaboration. This work earned the LSESU Teaching Award for Feedback & Communication in 2023.\nMy primary research project, GENIAL, investigates how ChatGPT and other AI tools affect programming education. This work has produced policy recommendations for higher education institutions and empirical studies on AI integration in teaching.\nI also lead several student research projects: - DISCORDIA: Analysis of parliamentary discourse and voting patterns - ChatLSE: Open-source RAG implementation for institutional knowledge - Course Selection Pathways: Visual analytics of student course choices",
+    "crumbs": [
+      "🏡 Home"
+    ]
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "@jonjoncardoso",
+    "section": "Background",
+    "text": "Background\nPrior to LSE, I worked as a Lead Data Scientist and Full-stack Software Developer, bringing industry experience to my academic practice. I hold a PhD in Computer Science from King’s College London (2018), specialising in optimisation and network science.\nFor current projects and activities, visit my NOW page.",
+    "crumbs": [
+      "🏡 Home"
+    ]
+  },
+  {
     "objectID": "now.html",
     "href": "now.html",
     "title": "NOW Page",
     "section": "",
-    "text": "Current activities and focus areas as of January 2025:",
+    "text": "05 April 2025: LSE + KCL AI for Teaching and Learning workshop",
+    "crumbs": [
+      "🤹🏻‍♂️ Now"
+    ]
+  },
+  {
+    "objectID": "now.html#public-speaking",
+    "href": "now.html#public-speaking",
+    "title": "NOW Page",
+    "section": "",
+    "text": "05 April 2025: LSE + KCL AI for Teaching and Learning workshop",
     "crumbs": [
       "🤹🏻‍♂️ Now"
     ]
@@ -37,36 +175,6 @@
     "text": "🎓 Teaching\nCurrent course development: - DS105 (Data for Data Science) - DS205 (Advanced Data Manipulation) - website in the works\nSupporting projects: - Quarto course template - 2x LSE Changemakers projects focused on GenerativeAI in Education\n\nLast updated: 30 December 2024",
     "crumbs": [
       "🤹🏻‍♂️ Now"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "@jonjoncardoso",
-    "section": "",
-    "text": "Dr. Jon Cardoso-Silva Assistant Professor of Data Science (Education) LSE Data Science Institute   \n\n\n\n\n\ngenerative AI in education\n\n\ndata science education\n\n\nlearning analytics\n\n\nresearch software development\n\n\nrelationship-rich education\n\n\npolicy research\nI lead research and teaching initiatives at the intersection of data science education and generative AI. My work centres on developing evidence-based approaches to integrate AI tools in higher education, particularly in programming and data analysis instruction.",
-    "crumbs": [
-      "🏡 Home"
-    ]
-  },
-  {
-    "objectID": "index.html#current-focus",
-    "href": "index.html#current-focus",
-    "title": "@jonjoncardoso",
-    "section": "Current Focus",
-    "text": "Current Focus\nI develop and teach core data science courses at LSE (DS105 and DS205), focusing on data collection, manipulation and effective group collaboration. This work earned the LSESU Teaching Award for Feedback & Communication in 2023.\nMy primary research project, GENIAL, investigates how ChatGPT and other AI tools affect programming education. This work has produced policy recommendations for higher education institutions and empirical studies on AI integration in teaching.\nI also lead several student research projects: - DISCORDIA: Analysis of parliamentary discourse and voting patterns - ChatLSE: Open-source RAG implementation for institutional knowledge - Course Selection Pathways: Visual analytics of student course choices",
-    "crumbs": [
-      "🏡 Home"
-    ]
-  },
-  {
-    "objectID": "index.html#background",
-    "href": "index.html#background",
-    "title": "@jonjoncardoso",
-    "section": "Background",
-    "text": "Background\nPrior to LSE, I worked as a Lead Data Scientist and Full-stack Software Developer, bringing industry experience to my academic practice. I hold a PhD in Computer Science from King’s College London (2018), specialising in optimisation and network science.\nFor current projects and activities, visit my NOW page.",
-    "crumbs": [
-      "🏡 Home"
     ]
   }
 ]
